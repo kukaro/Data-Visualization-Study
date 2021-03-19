@@ -21,3 +21,10 @@ hist(Period,
          rep('navyblue', 6)
      )
 )
+#What is a rep function.
+#rep replicates the values in x.
+#It is a generic function,
+#and the (internal) default method is described here.
+#
+#rep.int and rep_len are faster simplified versions for two common cases.
+#Internally, they are generic, so methods can be defined for them.
