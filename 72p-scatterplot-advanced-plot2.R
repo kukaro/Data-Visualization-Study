@@ -18,7 +18,7 @@ plot(mid + runif(n, -0.5, 0.5),
      pch = 20,
      xlim = c(-5, 40),
      ylim = c(-5, 40),
-     col = 'blue',
+     col = rainbow(5),
      xlab = "\uc911\uac04\uace0\uc0ac",
      ylab = "\uae30\ub9d0\uc2dc\ud5d8",
      main = "\ud1b5\uacc4\uc801\uc0ac\uace0")
