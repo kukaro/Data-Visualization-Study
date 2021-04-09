@@ -11,6 +11,7 @@ summary(exam) #요약 값을 볼 수 있다.
 mid[is.na(mid)] <- 0
 final[is.na(final)] <- 0
 windows(height = 5.5, width = 5)
+
 plot(mid,
      final,
      pch = 20,
@@ -20,3 +21,4 @@ plot(mid,
      xlab = "\uc911\uac04\uace0\uc0ac",
      ylab = "\uae30\ub9d0\uc2dc\ud5d8",
      main = "\ud1b5\uacc4\uc801\uc0ac\uace0")
+#이 값들은 결시값을 처리했음
