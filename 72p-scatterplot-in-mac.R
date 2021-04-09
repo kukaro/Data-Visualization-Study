@@ -17,6 +17,6 @@ plot(mid,
      xlim = c(-5, 40),
      ylim = c(-5, 40),
      col = 'blue',
-     xlab = "중간시험",
-     ylab = "기말시험",
-     main = "통계적사고")
+     xlab = "\uc911\uac04\uace0\uc0ac",
+     ylab = "\uae30\ub9d0\uc2dc\ud5d8",
+     main = "\ud1b5\uacc4\uc801\uc0ac\uace0")
