@@ -5,6 +5,7 @@
 
 install.packages('hexbin')
 library(hexbin)
+library(crayon)
 windows(height = 7, width = 6.4)
 hexbinplot(
   sqrt(price) ~ carat,
@@ -15,5 +16,5 @@ hexbinplot(
   xbins = 25,
   aspect = 1,
   colorkey = F,
-  colramp = function(n) magenta(n, 255, 255)
+  colramp = function(n) magenta(n, 255, 25)
 )
