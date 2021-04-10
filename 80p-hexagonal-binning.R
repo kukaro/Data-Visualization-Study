@@ -5,7 +5,8 @@
 
 install.packages('hexbin')
 library(hexbin)
-library(crayon)
+data(diamonds)
+attach(diamonds)
 windows(height = 7, width = 6.4)
 hexbinplot(
   sqrt(price) ~ carat,
@@ -16,5 +17,16 @@ hexbinplot(
   xbins = 25,
   aspect = 1,
   colorkey = F,
-  colramp = function(n) magenta(n, 255, 25)
+)
+windows(height = 6, width = 6)
+hexbinplot(
+  sqrt(price) ~ carat,
+  data = diamonds,
+  main = "diamonds",
+  xlim = c(-0.5, 5.5),
+  ylim = c(0, 160),
+  xbins = 100,
+  aspect = 1,
+  colorkey = F,
+  colramp = function(n) magent(n, 225, 25)
 )
