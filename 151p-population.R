@@ -5,7 +5,7 @@
 
 library(sp)
 library(stringr)
-gadm <- readRDS('./gadm/gadm36_KOR_2_sp.rds')
+gadm <- readRDS('./gadm/gadm36_KOR_1_sp.rds')
 plot(gadm)
 
 pollution <- read.csv('./data/city_pollution.txt', header = T)
